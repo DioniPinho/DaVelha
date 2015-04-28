@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|center"
+    android:background="@drawable/ic_backg"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickBtn"
+            android:tag="btn1" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickBtn"
+            android:tag="btn2" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickBtn"
+            android:tag="btn3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickBtn"
+            android:tag="btn4" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickBtn"
+            android:tag="btn5" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickBtn"
+            android:tag="btn6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickBtn"
+            android:tag="btn7" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickBtn"
+            android:tag="btn8" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickBtn"
+            android:tag="btn9" />
+    </LinearLayout>
+
+    <Button
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="41dp"
+            android:onClick="novoJogo"
+            android:text="Play" />
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      >
+
+        <TextView
+            android:id="@+id/nomeX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="#000"
+            android:textSize="20sp" />
+     
+
+        <TextView
+            android:id="@+id/nomeO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        
+    </LinearLayout>
+
+</LinearLayout>

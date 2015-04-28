@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DaVelha</string>
+    <string name="action_settings">Settings</string>
+    <string name="btEn">Enviar</string>
+    <string name="edtex1">Digite player para X</string>
+    <string name="edtex2">Digite player para O</string>
+    <string name="title_activity_velha">Jogo</string>
+    <string name="hello_world">Hello world!</string>
+   
+
+</resources>
